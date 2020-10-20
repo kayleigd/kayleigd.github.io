@@ -1,29 +1,413 @@
-p{
 
-    color: blueviolet;
-
+h2 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
     font-size: 18px;
-
-    height: 75%;
-
-    width: 400px;
-
-    font-family: 'Abril Fatface', cursive;
-
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 125px;
+    background-color: white;
+    border: 10px solid #FE3B5B;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+h3{
+    color: black;
+    font-family: 'Raleway', sans-serif;
     text-shadow: 4px 4px 4px #aaa;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+}
+h4{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+}
+a:link {
+    color: #FE3B5B;
+}
+a:visited {
+    color: #FE3B5B;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: blue;
+}
 
-    }  
-h1{
-    color: blueviolet;
 
+
+
+.socialmedia {
+    background-color: white;
+    height: 60px;
+    padding: 20px 20px 20px 1170px;
+}
+#emailicon {
+    position: absolute;
+    left: 800px;
+    top: 20px;
+}
+#facebookicon {
+    position: absolute;
+    left: 875px;
+    top: 20px;
+}
+#instagramicon {
+    position: absolute;
+    left: 950px;
+    top: 20px;
+}
+#youtubeicon {
+    position: absolute;
+    left: 1025px;
+    top: 20px;
+}
+#twittericon {
+    position: absolute;
+    left: 1100px;
+    top: 20px;
+}
+
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#home {
+    position: absolute;
+    left: 455px;
+    top: 125px;
+}
+#home:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+#aboutus {
+    position: absolute;
+    left: 590px;
+    top:125px;
+}
+#aboutus:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+#getinvolved {
+    position: absolute;
+    left: 775px;
+    top:125px;
+}
+#getinvolved:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+#blog {
+    position: absolute;
+    left: 1025px;
+    top:127px;
+}
+#blog:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+#donate {
+    position: absolute;
+    left: 1145px;
+    top:125px;
+}
+#donate:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+#shop {
+    position: absolute;
+    left: 1305px;
+    top:125px;
+}
+#shop:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+#shoppingcarticon {
+    position: absolute;
+    left: 1415px;
+    top: 113px;
+}
+.menu {
+    background-color:mistyrose;
+    height: 70px;
+    padding: 10px 10px;  
+}
+
+#mainphoto {
+    position: absolute;
+    left: 10px;
+    top: 200px;
+}
+#whatis {
+    position: absolute;
+    left: 270px;
+    top: 425px;
+}
+#whyadopt {
+    position: absolute;
+    left: 50px;
+    top: 235px;
+}
+#bubble1 {
+    position: absolute;
+    left: 50px;
+    top: 470px;
+}
+#bubble2 {
+    position: absolute;
+    left: 150px;
+    top: 550px;
+}
+#bubble3 {
+    position: absolute;
+    left: 530px;
+    top: 580px;
+}
+#bubble4 {
+    position: absolute;
+    left: 460px;
+    top: 610px;
+}
+#sponsor {
+    position: absolute;
+    left: 1150px;
+    top: 250px;
+}
+#bubble5 {
+    position: absolute;
+    left: 1390px;
+    top: 470px;
+}
+#bubble6 {
+    position: absolute;
+    left: 1450px;
+    top: 420px;
+}
+
+
+
+.links {
+    background-color: #FE3B5B;
+    height: 150px;
+    width: 1500px;
+    position: absolute;
+    top: 950px;
+    left: 10px;
+}
+.ourstory {
+    background-color: mistyrose;
+    height: 600px;
+    width: 1500px;
+    position: absolute;
+    top: 1100px;
+    left: 10px;
+}
+#catlinks {
+    position: absolute;
+    left: 2px;
+    top: 830px;
+}
+#amazon {
+    position: absolute;
+    left: 375px;
+    top: 950px;
+}
+#charity {
+    position: absolute;
+    left: 630px;
+    top: 960px;
+}
+#guidestar {
+    position: absolute;
+    left: 920px;
+    top: 960px;
+}
+#bestfriends {
+    position: absolute;
+    left: 1090px;
+    top: 980px;
+}
+#border {
+    position: absolute;
+    left: 10px;
+    top: 1090px;
+}
+#ourstory {
+    position: absolute;
+    left: 60px;
+    top: 1160px;
+}
+#kittens{
+    position: absolute;
+    left: 960px;
+    top: 1400px;
+}
+
+
+.meet {
+    background-color: #FE3B5B;
+    height: 900px;
+    width: 1500px;
+    position: absolute;
+    top: 1700px;
+    left: 10px;
+}
+#cattail {
+    position: absolute;
+    left: 55px;
+    top: 1455px;
+}
+#meetourcats {
+    position: absolute;
+    left: 555px;
+    top: 1750px;
+}
+#bubble7 {
+    position: absolute;
+    left: 400px;
+    top: 1750px;
+}
+#bubble8 {
+    position: absolute;
+    left: 975px;
+    top: 1750px;
+}
+#bubble9 {
+    position: absolute;
+    left: 290px;
+    top: 1770px;
+}
+#bubble10 {
+    position: absolute;
+    left: 1120px;
+    top: 1770px;
+}
+#mew {
+    position: absolute;
+    left: 150px;
+    top:1900px;
+    border: 10px solid mistyrose;
+    background-color: mistyrose;
+    border-radius: 12px;
+}
+#yoda {
+    position: absolute;
+    left: 575px;
+    top:1900px;
+    border: 10px solid mistyrose;
+    background-color: mistyrose;
+    border-radius: 12px;
+}
+#umi {
+    position: absolute;
+    left: 1010px;
+    top:1900px;
+    border: 10px solid mistyrose;
+    background-color: mistyrose;
+    border-radius: 12px;
+}
+td {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 15px;
+    background-color: mistyrose;
+    border: 6px solid white;
+    border-radius: 12px;
+    padding: 10px 20px; 
+}
+table {
+    margin-top: 610px;
+    margin-left: 50px;
+    border-spacing: 10px;
+}
+button {
+    background-color: mistyrose;
+    border: 5px solid white;
+    color: white;
+    text-align: center;
     font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    padding: 5px 8px;
+    margin-left: 600px;
+    margin-top: 25px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: paleturquoise;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
-    height: 75%;
 
-    width: 400px;
+.activitycorner {
+    background-color: mistyrose;
+    height: 1500px;
+    width: 1500px;
+    position: absolute;
+    top: 2600px;
+    left: 10px;
+}
+#activitycorner {
+    position: absolute;
+    left: 50px;
+    top: 2650px;
+}
+#kitten {
+    position: absolute;
+    left: 50px;
+    top: 2450px;
+}
+#pawprints {
+    position: absolute;
+    left: 1250px;
+    top: 2550px;
+}
+#kibble {
+    position: absolute;
+    left: 600px;
+    top: 2770px;
+}
+#kittens2 {
+    position: absolute;
+    left: 915px;
+    top: 2910px;
+}
 
-    font-family: 'Abril Fatface', cursive;
 
-    text-shadow: 4px 4px 4px #aaa;
-
+.bottom {
+    background-color: white;
+    height: 460px;
+    width: 1500px;
+    position: absolute;
+    top: 4050px;
+    left: 10px;
+}
+#logo2 {
+    position: absolute;
+    top:4100px;
+    left: 50px;
+}
+#cat {
+    position: absolute;
+    top: 3800px;
+    left: 50px;
+}
+#map {
+    position: absolute;
+    top: 4100px;
+    left: 1025px;
 }
